@@ -15,7 +15,7 @@ jobs:
       - uses: athul/waka-readme@master # this action name
         with:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          WAKATIME_API_KEY: waka_7dc2042b-9915-4125-b9ae-f5486e6b6744
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           LANG_COUNT: 10 # optional
           SHOW_TIME: true # optional
           SHOW_TOTAL: true # optional
